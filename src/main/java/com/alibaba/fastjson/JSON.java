@@ -88,6 +88,8 @@ public abstract class JSON implements JSONStreamAware, JSONAware {
 
     public static String           DEFAULT_TYPE_KEY     = "@type";
 
+    public String test;
+
     static final SerializeFilter[] emptyFilters         = new SerializeFilter[0];
 
     public static String           DEFFAULT_DATE_FORMAT = "yyyy-MM-dd HH:mm:ss";
